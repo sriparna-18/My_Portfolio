@@ -1,0 +1,18 @@
+.about-left img {
+    margin-top: 20px;
+    width: 300px; /* Adjust this value to make the image smaller or larger */
+    height:400px; /* Keeps the aspect ratio */
+    border-radius: 10%;
+    margin-left: 10px; /* Optional: makes the image circular */
+}
+.about-title {
+    display: flex;
+    align-items: center;
+}
+
+.about-title img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Ensure it's square for a logo-like appearance */
+    margin-left: 10px;
+    border-radius: 40%;
+}

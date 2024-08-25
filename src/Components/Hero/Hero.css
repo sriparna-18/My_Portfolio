@@ -1,0 +1,61 @@
+.hero img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    margin-top:90px; /* Ensures the image covers the entire area */
+  }
+  .hero h1 {
+    font-size: 2em;
+    text-align: center;
+    width:70%;
+    font-size:50px;
+    font-weight:600;
+  }
+  .hero p {
+    font-size: 1.2em;
+    color: #8c8dd5;
+    line-height: 1.2;
+    max-width: 600px;
+    margin: 0 auto 10px;
+    font-style: italic; /* Makes the text italic */
+  }
+  .hero-action {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+  }
+  
+  .hero-connect{
+    cursor: pointer;
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 100%);
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-connect:hover{
+    border: 2px solid white;
+  }
+  .hero{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .hero h1 span{
+    background: linear-gradient(270deg,#DF8908 10%,#B415FF 100%);
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  .hero-resume{
+    padding:25px 75px;
+    border-radius:50px;
+    border:2px solid #fff;
+    cursor:pointer;
+  }
+  .hero-resume:hover{
+    border-color: #B415FF;
+  }

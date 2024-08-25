@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #202249; /* Adjust background color as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for styling */
+  }
+  
+  .navbar img {
+    width: 50px; /* Adjust the width for the logo size */
+    height: 50px; /* Adjust the height for the logo size */
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+    font-size: 16px; /* Adjust font size as needed */
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-weight: 500;
+    color: #9c9191; /* Text color */
+    cursor: pointer;
+  }
+  
+  .nav-menu li:hover {
+    color: #007BFF; /* Optional: Hover color change */
+  }
+  
+  .nav-connect {
+    font-size: 16px; /* Adjust font size as needed */
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+    font-weight: 500;
+    color: #918484;
+    cursor: pointer;
+  }
+  
+  .nav-connect:hover {
+    color: #007BFF; /* Optional: Hover color change */
+  }
+  
