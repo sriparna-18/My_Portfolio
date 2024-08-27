@@ -1,0 +1,123 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 80px;
+}
+.contact-title{
+    position: relative;
+    
+}
+.contact-title h1{
+    padding:0px 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact-left h1{
+    font-size: 80px;
+    font-weight: 700;
+    background:linear-gradient(270deg,#DF8908 80%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width:550px;
+    color:rosybrown;
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact-details{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    color:lightcoral;
+    font-size:24px;
+}
+contact-detail{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+}
+.contact-right label{
+    color: darkseagreen;
+    font-size: 24px;
+    font-weight: 500;
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+    height:78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: cornsilk;
+    color: gray;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-right textarea{
+    border: none;
+    width: 700px;
+    height:78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: cornsilk;
+    color: gray;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact-submit {
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    align-self: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Adds some spacing at the top */
+}
+
+.contact-submit:hover {
+    background: linear-gradient(270deg, #B415FF 80%, #DF8908 100%);
+}
+.back-button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

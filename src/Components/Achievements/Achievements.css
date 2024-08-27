@@ -1,0 +1,72 @@
+.Achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    font-size: 40px;
+    font-weight:500;
+}
+.achievements-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.achievement1, .achievement2 {
+    cursor: pointer;
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #FF8A00 -5.09%, #FF3D81 100%);
+    margin-bottom: 60px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.achievement1:hover, .achievement2:hover {
+    background: linear-gradient(264deg, #FF3D81 -5.09%, #8A2BE2 100%);/* Change background color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    border-color: aliceblue;
+}
+@media (max-width: 768px) {
+    .achievments-title h1 {
+      font-size: 2em;
+    }
+  
+    .achievements-container {
+      flex-direction: column;
+    }
+  
+    .achievement1, .achievement2 {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 15px;
+    }
+  
+    .achievement1 h2, .achievement2 h2 {
+      font-size: 1.5em;
+    }
+  
+    .achievement1 h3, .achievement2 h3 {
+      font-size: 1em;
+    }
+  }
+  .back-button-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  

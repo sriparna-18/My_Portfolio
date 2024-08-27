@@ -26,6 +26,8 @@
     font-weight: 500;
     color: #9c9191; /* Text color */
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
   }
   
   .nav-menu li:hover {
@@ -43,4 +45,66 @@
   .nav-connect:hover {
     color: #007BFF; /* Optional: Hover color change */
   }
+  /* General styles for all devices */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-menu li {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+  }
+
+  .nav-connect {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+.navbar img {
+  width: 100px; /* Adjust size for mobile */
+  height: auto;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none; /* Hide menu */
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
   

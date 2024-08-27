@@ -5,10 +5,9 @@ import theme from '../../assets/theme-pattern.jpg'
 const About=() => {
   return (
     <div>
-     <div className="about">
+     <div id='about' className="about">
         <div className="about-title">
             <h1>About Me</h1>
-            <img src={theme} alt="" />
         </div>
         <div className="about-sections">
             <div className="about-left">
@@ -30,13 +29,16 @@ const About=() => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>200+ </h1>
-                <p>LeetCode problems</p>
+                <h1>Data Structures and Algorithms </h1>
+               
             </div>
             <hr />
             <div className="about-achievement">
                 <h1>Hands-on experience in Web Development</h1>
             </div>
+        </div>
+        <div className="back-button-container">
+          <a href="#home" className="back-button">Back to Home</a>
         </div>
          </div>
      </div>
